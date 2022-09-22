@@ -1,4 +1,4 @@
-- - -
+---
 - hosts: docker
 
 
@@ -12,10 +12,10 @@
     ignore_errors: yes
 
   - name: remove existing image
-    command: docker rmi anshustwt/rgapp:latest
+    command: docker rmi anshustwt/rgapp
     ignore_errors: yes
 
   - name: create container
-    command: docker run -d --name rgappc -p 8087:8080 anshustwt/rgapp:latest
+    command: docker run -d --name rgappc -p 8087:8080 anshustwt/rgapp
 
 
