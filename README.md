@@ -1,6 +1,8 @@
 # CI-CD-Pipeline-using-jenkins-docker-and-ansible
 
 first we need to launch three instances on any cloud platform for Jenkins, Ansible and Docker.
+
+
 then install java, maven and git on jenkins instance and configure it in jenkins global tool configuration
 install three plugin Github, Maven-Integration and publish-over-ssh
 
