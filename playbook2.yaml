@@ -1,0 +1,21 @@
+- - -
+- hosts: docker
+
+
+  tasks:
+  - name: stop existing container
+    command: docker stop rgappc
+    ignore_errors: yes
+
+  - name: remove the existing container
+    command: docker rm rgappc
+    ignore_errors: yes
+
+  - name: remove existing image
+    command: docker rmi anshustwt/rgapp:latest
+    ignore_errors: yes
+
+  - name: create container
+    command: docker run -d --name rgappc -p 8087:8080 anshustwt/rgapp:latest
+
+
