@@ -23,6 +23,10 @@ this will first run playbook1.yaml on the ansible-server and create docker image
 after this a complete CI/CD pipeline is achieved
 
 
+we can access our webapp by public IP of jenkins server and the port number provided for the container inside webapp section
+
+
+
 
 
 
