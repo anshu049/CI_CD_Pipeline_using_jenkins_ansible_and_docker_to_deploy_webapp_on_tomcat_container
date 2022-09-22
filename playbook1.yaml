@@ -1,0 +1,15 @@
+- - - 
+- hosts: ansible
+
+
+  tasks:
+  - name: create docker image
+    command: docker build -t rgapp:latest .
+    args:
+     chdir: /opt/docker
+
+  - name: tag to push image on dockerhub
+    command: docker tag rgapp:latest anshustwt/rgapp:latest
+
+  - name: push to dockerhub
+    command: docker push anshustwt/rgapp:latest
