@@ -8,7 +8,7 @@ then install java, maven and git on jenkins instance and configure it in jenkins
 
 install three plugin Github, Maven-Integration and publish-over-ssh
 
-then create a jenkins-job as maven-project and give github-repo-link and clean install inside goals and options in build section it will create a war file
+then create a jenkins-job as maven-project and give github-repo-link and select poll-scm inside build triggers so that it should automatically update code changes made on github and clean install inside goals and options in build section it will create a war file
 
 then integrate docker and ansible with jenkins by creating user on docker and ansible respectively using PasswordAuthentication and then also integrate docker with ansible using Private-Key
 
