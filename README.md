@@ -17,6 +17,9 @@ using Jenkins, Maven, Ansible and Docker with the help of Dockerfile and Ansible
 jenkins should pull the code from github and using pom.xml file it should create a war-file of the maven project.
 
 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
 
 
 
@@ -32,6 +35,8 @@ ansbile playbook2.yaml will also pull docker-image from dockerhub and create a c
 
 
 #Steps_to_Setup_Project
+
+
 first we need to launch three instances on any cloud platform for Jenkins, Ansible and Docker
 
 
