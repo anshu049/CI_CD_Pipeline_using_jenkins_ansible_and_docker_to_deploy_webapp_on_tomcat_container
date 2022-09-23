@@ -5,7 +5,7 @@ I have created a CI/CD Pipeline where a war-file is build from maven project and
 using Jenkins, Maven, Ansible and Docker with the help of Dockerfile and Ansible-Playbok by integrating them with each other.
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
-PROJECT_OVERVIEW
+#PROJECT_OVERVIEW
 <img width="1023" alt="overview" src="https://user-images.githubusercontent.com/95365748/191949125-797f31bf-b639-47a7-b27a-2fb898f9d4bb.png">
 
 
@@ -16,6 +16,10 @@ PROJECT_OVERVIEW
 
 jenkins should pull the code from github and using pom.xml file it should create a war-file of the maven project.
 
+
+
+
+
 #Ansible-Role:-
 
 
@@ -23,6 +27,8 @@ ansible-server should run playbook1.yaml on itself to create docker-image and ta
 also ansible-server should run playbook2.yaml on docker-server to stop and delete the existing container and image so that it should not give error like container and images are already present and need to remove or rename it while some changes are made on github 
 ansbile playbook2.yaml will also pull docker-image from dockerhub and create a container.
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
 
 
 #Steps_to_Setup_Project
