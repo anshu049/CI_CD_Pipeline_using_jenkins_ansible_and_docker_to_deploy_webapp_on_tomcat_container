@@ -1,5 +1,10 @@
 # CI-CD-Pipeline-using-jenkins-docker-and-ansible
 
+
+PROJECT_OVERVIEW
+<img width="1023" alt="overview" src="https://user-images.githubusercontent.com/95365748/191949125-797f31bf-b639-47a7-b27a-2fb898f9d4bb.png">
+
+
 first we need to launch three instances on any cloud platform for Jenkins, Ansible and Docker
 
 
