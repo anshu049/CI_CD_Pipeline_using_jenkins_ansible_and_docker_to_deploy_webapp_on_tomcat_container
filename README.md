@@ -3,7 +3,15 @@
 
 I have created a CI/CD Pipeline where a war-file is build from maven project and created a tomcat container and deployed the webapp on the tomcat container
 using Jenkins, Maven, Ansible and Docker with the help of Dockerfile and Ansible-Playbok by integrating them with each other.
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+#Objective_of_Project
+1)This project gives automation where continuous delivery will allow the software to add new features and go live at any stage
+2)It will also remove human errors and will need not to do manual things like stopping and deleting the existing docker-container and images while some changes are made on github code repo.
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 #PROJECT_OVERVIEW
 <img width="1023" alt="overview" src="https://user-images.githubusercontent.com/95365748/191949125-797f31bf-b639-47a7-b27a-2fb898f9d4bb.png">
