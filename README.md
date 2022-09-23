@@ -1,5 +1,5 @@
 # CI-CD-Pipeline-using-jenkins-docker-and-ansible
-##Project-Idea
+#Project-Idea
 
 
 I have created a CI/CD Pipeline where a war-file is build from maven project and created a tomcat container and deployed the webapp on the tomcat container
@@ -12,17 +12,17 @@ PROJECT_OVERVIEW
 
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-Jenkins-Role:-
+#Jenkins-Role:-
 jenkins should pull the code from github and using pom.xml file it should create a war-file of the maven project.
 
-Ansible-Role:-
+#Ansible-Role:-
 ansible-server should run playbook1.yaml on itself to create docker-image and tag it and then push it to dockerhub
 also ansible-server should run playbook2.yaml on docker-server to stop and delete the existing container and image so that it should not give error like container and images are already present and need to remove or rename it while some changes are made on github 
 ansbile playbook2.yaml will also pull docker-image from dockerhub and create a container.
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
 
-
+#Steps_to_Setup_Project
 
 first we need to launch three instances on any cloud platform for Jenkins, Ansible and Docker
 
