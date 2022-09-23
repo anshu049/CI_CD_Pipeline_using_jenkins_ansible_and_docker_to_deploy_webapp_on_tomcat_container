@@ -7,6 +7,8 @@ using Jenkins, Maven, Ansible and Docker with the help of Dockerfile and Ansible
 
 
 #Objective_of_Project
+
+
 1)This project gives automation where continuous delivery will allow the software to add new features and go live at any stage
 2)It will also remove human errors and will need not to do manual things like stopping and deleting the existing docker-container and images while some changes are made on github code repo.
 
