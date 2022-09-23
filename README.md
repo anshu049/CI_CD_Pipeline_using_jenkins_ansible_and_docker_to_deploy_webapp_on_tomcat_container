@@ -1,6 +1,6 @@
 # CI-CD-Pipeline-using-jenkins-docker-and-ansible
-I have created a CI/CD Pipeline where a java 
-
+I have created a CI/CD Pipeline where a war-file is build from maven project and created a tomcat container and deployed the webapp on the tomcat container
+using Jenkins, Maven, Ansible and Docker with the help of Dockerfile and Ansible-Playbok by integrating them with each other
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
 PROJECT_OVERVIEW
