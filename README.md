@@ -1,5 +1,7 @@
 # CI-CD-Pipeline-using-jenkins-docker-and-ansible
+I have created a CI/CD Pipeline where a java 
 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
 PROJECT_OVERVIEW
 <img width="1023" alt="overview" src="https://user-images.githubusercontent.com/95365748/191949125-797f31bf-b639-47a7-b27a-2fb898f9d4bb.png">
