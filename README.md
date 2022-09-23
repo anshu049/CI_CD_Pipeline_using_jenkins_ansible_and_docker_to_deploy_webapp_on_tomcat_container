@@ -6,7 +6,7 @@ PROJECT_OVERVIEW
 
 
 
-
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 Jenkins-Role:-
 jenkins should pull the code from github and using pom.xml file it should create a war-file of the maven project
 
@@ -45,7 +45,7 @@ after this a complete CI/CD pipeline is achieved
 we can access our webapp by public IP of jenkins server and the port number provided for the container inside webapp section
 
 
-
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
 
 
